@@ -1,0 +1,269 @@
+.one{
+	width:10%;
+}
+.two{
+	width: 480px;
+	max-width:480px;
+	word-wrap: break-word;
+}
+.three{
+	width: 672px;
+	max-width:672px;
+	word-wrap: break-word;
+}
+.four{
+	width: 10%;
+}
+.five{
+	width:20%;
+}
+#myTable td,th{
+	text-align: center;
+}
+#myTable { 
+    border-collapse: collapse; 
+    margin:auto;
+}
+#myTable tr{
+	border-bottom: 1px solid gray;
+}
+#myTable tbody tr:nth-child(odd){
+	background: #F5F5F5;
+}
+
+#nav{
+	border-collapse: collapse;
+	float:right;
+}
+#nav td{
+	border: 1px solid black;
+	padding:5px;
+}
+
+#nav .notactive{
+	color: #F5F5F5;
+}
+#nav .current{
+	background-color: #F5F5F5;
+	color:black;
+}
+#nav td{
+	color:#82EEFD;
+	cursor: pointer;
+}
+#nav td:hover{
+	background-color: #F5F5F5;
+	color:black;
+}
+
+@media screen and (max-width: 1600px) {
+ 	.two{
+		width: 400px;
+		max-width:400px;
+		word-wrap: break-word;
+	}
+	.three{
+		width: 560px;
+		max-width:560px;
+		word-wrap: break-word;
+	}
+}
+@media screen and (max-width: 1380px) {
+ 	.two{
+		width: 345px;
+		max-width:345px;
+		word-wrap: break-word;
+	}
+	.three{
+		width: 483px;
+		max-width:483px;
+		word-wrap: break-word;
+	}
+}
+@media screen and (max-width: 1200px) {
+ 	.two{
+		width: 300px;
+		max-width:300px;
+		word-wrap: break-word;
+	}
+	.three{
+		width: 420px;
+		max-width:420px;
+		word-wrap: break-word;
+	}
+}
+@media screen and (max-width: 1080px) {
+ 	.two{
+		width: 270px;
+		max-width:270px;
+		word-wrap: break-word;
+	}
+	.three{
+		width: 375px;
+		max-width:375px;
+		word-wrap: break-word;
+	}
+}
+@media screen and (max-width: 970px) {
+ 	.two{
+		width: 240px;
+		max-width:240px;
+		word-wrap: break-word;
+	}
+	.three{
+		width: 340px;
+		max-width:340px;
+		word-wrap: break-word;
+	}
+}
+@media screen and (max-width: 860px) {
+ 	.two{
+		width: 215px;
+		max-width:215px;
+		word-wrap: break-word;
+	}
+	.three{
+		width: 300px;
+		max-width:300px;
+		word-wrap: break-word;
+	}
+}
+@media screen and (max-width: 800px) {
+ 	.two{
+		width: 200px;
+		max-width:200px;
+		word-wrap: break-word;
+	}
+	.three{
+		width: 280px;
+		max-width:280px;
+		word-wrap: break-word;
+	}
+}
+@media screen and (max-width: 780px) {
+ 	.two{
+		width: 195px;
+		max-width:195px;
+		word-wrap: break-word;
+	}
+	.three{
+		width: 270px;
+		max-width:270px;
+		word-wrap: break-word;
+	}
+}
+@media screen and (max-width: 750px) {
+ 	.two{
+		width: 180px;
+		max-width:180px;
+		word-wrap: break-word;
+	}
+	.three{
+		width: 240px;
+		max-width:240px;
+		word-wrap: break-word;
+	}
+}
+@media screen and (max-width: 660px) {
+ 	.two{
+		width: 165px;
+		max-width:165px;
+		word-wrap: break-word;
+	}
+	.three{
+		width: 220px;
+		max-width:220px;
+		word-wrap: break-word;
+	}
+}
+@media screen and (max-width: 600px) {
+ 	.two{
+		width: 150px;
+		max-width:165px;
+		word-wrap: break-word;
+	}
+	.three{
+		width: 210px;
+		max-width:210px;
+		word-wrap: break-word;
+	}
+}
+@media screen and (max-width: 550px) {
+ 	.two{
+		width: 135px;
+		max-width:135px;
+		word-wrap: break-word;
+	}
+	.three{
+		width: 190px;
+		max-width:190px;
+		word-wrap: break-word;
+	}
+}
+@media screen and (max-width: 500px) {
+ 	.two{
+		width: 125px;
+		max-width:125px;
+		word-wrap: break-word;
+	}
+	.three{
+		width: 175px;
+		max-width:175px;
+		word-wrap: break-word;
+	}
+}
+@media screen and (max-width: 450px) {
+ 	.two{
+		width: 110px;
+		max-width:110px;
+		word-wrap: break-word;
+	}
+	.three{
+		width: 155px;
+		max-width:155px;
+		word-wrap: break-word;
+	}
+}
+@media screen and (max-width: 400px) {
+ 	.two{
+		width: 100px;
+		max-width:100px;
+		word-wrap: break-word;
+	}
+	.three{
+		width: 140px;
+		max-width:140px;
+		word-wrap: break-word;
+	}
+}
+@media screen and (max-width: 360px) {
+ 	.two{
+		width: 90px;
+		max-width:90px;
+		word-wrap: break-word;
+	}
+	.three{
+		width: 125px;
+		max-width:125px;
+		word-wrap: break-word;
+	}
+}
+@media screen and (max-width: 320px) {
+ 	.two{
+		width: 80px;
+		max-width:80px;
+		word-wrap: break-word;
+	}
+	.three{
+		width: 110px;
+		max-width:110px;
+		word-wrap: break-word;
+	}
+}
+
+
+
+
+
+
+
