@@ -126,12 +126,11 @@ document.getElementById('next').addEventListener('click',function(){
 		document.getElementById("prev").classList.remove("notactive");
 		document.getElementById("next").classList.remove("notactive");
 		x[0].classList.remove('current');
-		document.getElementById("limit").innerHTML='';
-		var p="<td class='notactive' id='prev'><span>&laquo;</span>Prev</td>";
-		document.getElementById("limit").innerHTML += p;
-		for( var i = tempor-3; i < tempor+1; i++) {
-        	var output="<td class='A'>"+arr[i]+"</td>";
-			document.getElementById("limit").innerHTML += output;
+		document.querySelector("#nav tr td:nth-child(2)").remove();		
+		var output = "<td class='A current'>" + arr[tempor + 1] + "</td>";
+		document.getElementById("next").insertAdjacentHTML("beforebegin", output);
+		current = tempor * onpage;
+		end = (tempor + 1) * onpage;
     	}
     	var q="<td class='A current'>"+arr[tempor+1]+"</td>";
     	var n="<td id='next'>Next<span>&raquo;</span></td>";
